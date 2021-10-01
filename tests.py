@@ -6,8 +6,8 @@ import helper
 new_todo_input = 'newTodoInput'
 new_todo_add_button = 'addTodoBtn'
 url = 'http://localhost:3000'
-mark_as_done_button = '//*[@id="incompletes"]/li[4]/div[1]/button/i'
-delete_task_from_completed_list_button = '//*[@id="completes"]/li/div[3]/button/i'
+mark_as_done_button = "//ul[@id='incompletes']//i[@class='far fa-square']"
+delete_task_from_completed_list_button = "//ul[@id='completes']//i[@class='fas fa-times']"
 
 
 class Tests(unittest.TestCase):
