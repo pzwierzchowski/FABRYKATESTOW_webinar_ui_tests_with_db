@@ -16,7 +16,7 @@ class Tests(unittest.TestCase):
         self.driver.get(url)
         self.connection = pymysql.connect(host='localhost',
                                      user='root',
-                                     password='password',
+                                     password='root',
                                      db='todos_db',
                                      charset='utf8mb4',
                                      cursorclass=pymysql.cursors.DictCursor)
